@@ -28,3 +28,14 @@ string[] SortArray(string[] inputArray, int limit)
 
     return outputArray;
 }
+
+void PrintArray(string[] array)
+{   
+    int size = array.Length;
+    Console.Write("[ ");  
+    for (int i = 0; i < size; i++)
+    {
+        Console.Write(array[i]+ " ");  
+    }
+    Console.WriteLine("]");  
+}
