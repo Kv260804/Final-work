@@ -39,3 +39,10 @@ void PrintArray(string[] array)
     }
     Console.WriteLine("]");  
 }
+
+string[] inputArray = new string[] {"как", "ваши", "дела", "?", "(・`ω´・)", "PC", "RPG"};
+Console.WriteLine("Первоначальный массив :");
+PrintArray(inputArray);
+string[] outputArray = SortArray(inputArray, 3);
+Console.WriteLine("Итоговый массив :");
+PrintArray(outputArray);
